@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <title>Eimo</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" rel="stylesheet">
+        <link rel="icon" href="../img/favicon.png" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="../shop.css" />
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="position-relative">
+            <div id="menu-overlay"></div>
+            <nav class="navbar navbar-expand-lg navbar-light px-4 gap-2">
+                <a class="navbar-brand order-1" href="#">
+                    <img src="../img/Eimo.png" class="logo" />
+                </a>
+                <div class="nav-icon d-flex order-2 order-lg-3 ms-auto">
+                    <a href="./signUp.html" class="me-3">
+                        <i class="fa-solid fa-user" style="color: #101827; font-size: 1.25rem;"></i>
+                    </a>
+                    <a href="#" class="cart">
+                        <i class="fa-solid fa-cart-shopping"
+                            style="color: #101827; font-size: 1.25rem;"></i><span>(00)</span>
+                    </a>
+                </div>
+
+                <button class="navbar-toggler order-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse order-4 order-lg-2" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./shop.html">All Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="../img/us.png" style="height: 20px; margin-right: 5px;" />English(US)
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#"><img src="../img/us.png"
+                                            style="height: 20px; margin-right: 5px;" />English(US)</a></li>
+                                <li><a class="dropdown-item" href="#"><img src="../img/kh.png"
+                                            style="height: 20px; margin-right: 5px;" />Khmer(KH)</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="text-center p-4">
+            <h3 class="fw-bold display-6 mb-4">Available Products</h3>
+        </div>
+
+        <section id="Projects" class="container mt-5 mb-4 pb-4">
+            <div class="row gy-4">
+                <!-- Product 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow-sm border-0">
+                        <a href="./product1.html">
+                            <img src="../img/product1.jpg"
+                                class="card-img-top" alt="Product">
+                        </a>
+                        <div class="card-body" style="height: 150px;">
+                            <p class="h5 card-title fw-bold mb-2">Floral Elegance Stiletto Heels</p>
+                            <span class="text-muted text-uppercase small">Bold Style Meets Effortless Grace</span>
+                            <div class="d-flex align-items-center">
+                                <p class="h5 fw-semibold mb-0">$49.99</p>
+                                <div class="ms-auto">
+                                    <i class="bi bi-bag-plus fs-5"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow-sm border-0">
+                        <a href="./product2.html">
+                            <img src="../img/product2.jpg"
+                                class="card-img-top" alt="Product">
+                        </a>
+                        <div class="card-body" style="height: 150px;">
+                            <p class="h5 card-title fw-bold mb-2">SmartFit Pro Watch</p>
+                            <span class="text-muted text-uppercase small">Your Ultimate Fitness and Lifestyle Companion</span>
+                            <div class="d-flex align-items-center">
+                                <p class="h5 fw-semibold mb-0">$149.99</p>
+                                <div class="ms-auto">
+                                    <i class="bi bi-bag-plus fs-5"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow-sm border-0">
+                        <a href="./product3.html">
+                            <img src="../img/product3.jpg"
+                                class="card-img-top" alt="Product">
+                        </a>
+                        <div class="card-body" style="height: 150px;">
+                            <p class="h5 card-title fw-bold mb-2">ProType Mechanical Keyboard</p>
+                            <span class="text-muted text-uppercase small">Precision Typing Meets Modern Design</span>
+                            <div class="d-flex align-items-center">
+                                <p class="h5 fw-semibold mb-0">$79.99</p>
+                                <div class="ms-auto">
+                                    <i class="bi bi-bag-plus fs-5"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow-sm border-0">
+                        <a href="./product4.html">
+                            <img src="../img/product4.jpg" class="card-img-top" alt="Product">
+                        </a>
+                        <div class="card-body" style="height: 150px;">
+                            <p class="h5 card-title fw-bold mb-2">SonicPulse Portable Bluetooth Speaker</p>
+                            <span class="text-muted text-uppercase small">Immersive Sound, Anywhere You Go</span>
+                            <div class="d-flex align-items-center">
+                                <p class="h5 fw-semibold mb-0">$79.99</p>
+                                <div class="ms-auto">
+                                    <i class="bi bi-bag-plus fs-5"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 5 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow-sm border-0">
+                        <a href="./product5.html">
+                            <img src="../img/product5.jpg" class="card-img-top" alt="Product">
+                        </a>
+                        <div class="card-body" style="height: 150px;">
+                            <p class="h5 card-title fw-bold mb-2">AeroVision Pro Drone</p>
+                            <span class="text-muted text-uppercase small">Capture the Skies with Precision and Style</span>
+                            <div class="d-flex align-items-center">
+                                <p class="h5 fw-semibold mb-0">$399.99</p>
+                                <div class="ms-auto">
+                                    <i class="bi bi-bag-plus fs-5"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 6 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow-sm border-0">
+                        <a href="./product6.html">
+                            <img src="../img/product6.jpg" class="card-img-top" alt="Product">
+                        </a>
+                        <div class="card-body" style="height: 150px;">
+                            <p class="h5 card-title fw-bold mb-2">SoundMax Elite Over-Ear Headphones</p>
+                            <span class="text-muted text-uppercase small">Premium Sound, Maximum Comfort</span>
+                            <div class="d-flex align-items-center">
+                                <p class="h5 fw-semibold mb-0">$199.99</p>
+                                <div class="ms-auto">
+                                    <i class="bi bi-bag-plus fs-5"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 7 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow-sm border-0">
+                        <a href="./product7.html">
+                            <img src="../img/product7.jpg" class="card-img-top" alt="Product">
+                        </a>
+                        <div class="card-body" style="height: 150px;">
+                            <p class="h5 card-title fw-bold mb-2">ThermoSteel Insulated Bottle</p>
+                            <span class="text-muted text-uppercase small">Keep Your Drinks Perfectly Hot or Cold</span>
+                            <div class="d-flex align-items-center">
+                                <p class="h5 fw-semibold mb-0">$29.99</p>
+                                <div class="ms-auto">
+                                    <i class="bi bi-bag-plus fs-5"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 8 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow-sm border-0">
+                        <a href="./product8.html">
+                            <img src="../img/product8.jpg" class="card-img-top" alt="Product">
+                        </a>
+                        <div class="card-body" style="height: 150px;">
+                            <p class="h5 card-title fw-bold mb-2">ProShot X7 Mirrorless Camera</p>
+                            <span class="text-muted text-uppercase small">Capture Every Moment with Unmatched Precision</span>
+                            <div class="d-flex align-items-center">
+                                <p class="h5 fw-semibold mb-0">$1,199.99</p>
+                                <div class="ms-auto">
+                                    <i class="bi bi-bag-plus fs-5"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 9 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow-sm border-0">
+                        <a href="./product9.html">
+                            <img src="../img/product9.jpg" class="card-img-top" alt="Product" style="height: 355px;">
+                        </a>
+                        <div class="card-body" style="height: 150px;">
+                            <p class="h5 card-title fw-bold mb-2">Modern Accent Chair</p>
+                            <span class="text-muted text-uppercase small">Elevate Your Living Space with Contemporary Comfort</span>
+                            <div class="d-flex align-items-center">
+                                <p class="h5 fw-semibold mb-0">$349.99</p>
+                                <div class="ms-auto">
+                                    <i class="bi bi-bag-plus fs-5"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="footer">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-lg-12 col-sm-12 col-xs-12">
+                        <div class="footer_menu">
+                            <ul>
+                                <li><a href="../index.html">Home</a></li>
+                                <li><a href="./shop.html">All Products</a></li>
+                                <li><a href="./contact.html">Contact</a></li>
+                                <li><a href="./about.html">About</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer_copyright">
+                            <p>© 2025 All Rights Reserved by Leang Vakhim</p>
+                        </div>
+                        <div class="footer_profile">
+                            <ul>
+                                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menu = document.querySelector('.navbar-toggler');
+            const menuOverlay = document.getElementById('menu-overlay');
+            const menuCollapse = document.getElementById('navbarNavDropdown');
+
+            function toggleOverlay() {
+                if (menuCollapse.classList.contains('show')) {
+                    menuOverlay.style.display = 'block';
+                } else {
+                    menuOverlay.style.display = 'none';
+                }
+            }
+
+            menu.addEventListener('click', () => {
+                setTimeout(toggleOverlay, 50);
+            });
+
+            menuOverlay.addEventListener('click', () => {
+                menuOverlay.style.display = 'none';
+                const collapse = new bootstrap.Collapse(menuCollapse);
+                collapse.hide();
+            });
+
+            menuCollapse.addEventListener('hidden.bs.collapse', () => {
+                menuOverlay.style.display = 'none';
+            });
+
+            menuCollapse.addEventListener('shown.bs.collapse', () => {
+                menuOverlay.style.display = 'block';
+            });
+        });
+    </script>
+</html>

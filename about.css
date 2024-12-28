@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #444444;
+}
+
+.logo {
+    width: auto;
+    height: 40px;
+}
+
+.navbar-nav {
+    margin: 0px auto;
+}
+
+.nav-icon {
+    gap: 20px;
+}
+
+.nav-icon a {
+    text-decoration: none !important;
+}
+
+.cart span {
+    color: black !important;
+}
+
+.bg-text-color,
+.btn-outline-light {
+    color: #133E87;
+    border-color: #133E87;
+}
+
+.navbar {
+    background-color: white !important;
+    color: black;
+    z-index: 1050;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1000;
+    display: none;
+}
+
+.bg-image-about {
+    height: 500px;
+    background-image: url('./img/aboutus.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-form {
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+
+.contact-form .form-control {
+    border-radius: 1rem;
+}
+
+.contact-image {
+    text-align: center;
+}
+
+.contact-image img {
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+
+.contact-form form {
+    padding: 14%;
+}
+
+.contact-form form .row {
+    margin-bottom: -7%;
+}
+
+.contact-form h1 {
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #0062cc;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btnContactSubmit {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    background: #232a34;
+    padding-bottom: 50px;
+    padding-top: 80px;
+}
+
+.footer_menu {
+    margin-bottom: 20px;
+}
+
+.footer_menu ul {
+    list-style: none;
+    text-align: center;
+}
+
+.footer_menu ul li {
+    display: inline-block;
+}
+
+.footer_menu ul li a {
+    color: #fff;
+    padding: 0 10px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.footer_menu ul li a:hover {
+    color: #554c86;
+}
+
+.footer_profile {
+    margin-bottom: 40px;
+}
+
+.footer_profile ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0
+}
+
+.footer_profile ul li {
+    display: inline-block;
+}
+
+@media only screen and (max-width:480px) {
+    .footer_profile ul li {
+        margin: 2px;
+    }
+}
+
+.footer_profile ul li a img {
+    width: 60px;
+}
+
+.footer_profile ul li a {
+    background: #554c86;
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    margin-right: 5px;
+    border-radius: 50%;
+    line-height: 40px;
+    box-sizing: border-box;
+    text-decoration: none;
+    -webkit-transition: .3s;
+    transition: .3s;
+    color: #fff;
+}
+
+.footer_copyright {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+.border-5 {
+    border-width: 5px;
+}
+
+.border-white {
+    border-color: rgba(255, 255, 255, 1) !important;
+}
+
+.shadow {
+    box-shadow: 0 0.375rem 1.5rem 0 rgba(140, 152, 164, .125) !important;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.icon-sm {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 75%;
+    line-height: normal;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+.hover-top-in .hover-top--in {
+    transition: ease-in-out all .35s;
+    position: relative;
+    top: 0
+}
+
+.hover-top-in:hover .hover-top--in {
+    top: -10px
+}
+
+.me-1 {
+    margin-right: 0.25rem !important;
+}
+
+.fw-700 {
+    font-weight: 700 !important;
+}
+
+.mb-1 {
+    margin-bottom: 0.25rem !important;
+}
+
+.z-index-1 {
+    z-index: 1 !important;
+}
+
+.pt-6 {
+    padding-top: 2.5rem !important;
+}
+
+.p-4 {
+    padding: 1.5rem !important;
+}
+
+.mt-n4 {
+    margin-top: -1.5rem !important;
+}
+
+.shadow {
+    box-shadow: 0 0.375rem 1.5rem 0 rgba(var(--bs-gray-700-rgb), .125) !important;
+}
+
+.px-5 {
+    padding-right: 2rem !important;
+    padding-left: 2rem !important;
+}
+
+.position-relative {
+    position: relative !important;
+}
+
+.overflow-hidden {
+    overflow: hidden !important;
+}
+.h1{
+    font-size: 3.5rem;
+}

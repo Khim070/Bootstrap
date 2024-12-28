@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Eimo</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" rel="stylesheet">
+    <link rel="icon" href="../img/favicon.png" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../cart.css" />
+</head>
+
+<body>
+    <div class="container pb-5 mb-2 mt-4">
+        <!-- Cart Item-->
+        <div class="cart-item d-md-flex justify-content-between">
+            <span class="remove-item"><i class="fa fa-times"></i></span>
+            <div class="px-3 my-3">
+                <a class="cart-item-product" href="#">
+                    <div class="cart-item-product-thumb">
+                        <img src="../img/product1.jpg" alt="Product">
+                    </div>
+                    <div class="cart-item-product-info">
+                        <h4 class="cart-item-product-title">Floral Elegance Stiletto Heels</h4>
+                        <span><strong>Type:</strong> Heels</span>
+                        <span><strong>Color:</strong> Yellow</span>
+                    </div>
+                </a>
+            </div>
+            <div class="px-3 my-3 text-center">
+                <div class="cart-item-label">Quantity</div>
+                <div class="count-input">
+                    <select class="form-select">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                    </select>
+                </div>
+            </div>
+            <div class="px-3 my-3 text-center">
+                <div class="cart-item-label">Subtotal</div>
+                <span class="text-xl fw-medium">$49.99</span>
+            </div>
+            <div class="px-3 my-3 text-center">
+                <div class="cart-item-label">Discount</div>
+                <span class="text-xl fw-medium">$0.99</span>
+            </div>
+        </div>
+
+        <div class="cart-item d-md-flex justify-content-between">
+            <span class="remove-item"><i class="fa fa-times"></i></span>
+            <div class="px-3 my-3">
+                <a class="cart-item-product" href="#">
+                    <div class="cart-item-product-thumb">
+                        <img src="../img/product2.jpg" alt="Product">
+                    </div>
+                    <div class="cart-item-product-info">
+                        <h4 class="cart-item-product-title">SmartFit Pro Watch</h4>
+                        <span><strong>Type:</strong> Watch</span>
+                        <span><strong>Color:</strong> Black</span>
+                    </div>
+                </a>
+            </div>
+            <div class="px-3 my-3 text-center">
+                <div class="cart-item-label">Quantity</div>
+                <div class="count-input">
+                    <select class="form-select">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                    </select>
+                </div>
+            </div>
+            <div class="px-3 my-3 text-center">
+                <div class="cart-item-label">Subtotal</div>
+                <span class="text-xl fw-medium">$149.99</span>
+            </div>
+            <div class="px-3 my-3 text-center">
+                <div class="cart-item-label">Discount</div>
+                <span class="text-xl fw-medium">$0.99</span>
+            </div>
+        </div>
+
+        <div class="cart-item d-md-flex justify-content-between">
+            <span class="remove-item"><i class="fa fa-times"></i></span>
+            <div class="px-3 my-3">
+                <a class="cart-item-product" href="#">
+                    <div class="cart-item-product-thumb">
+                        <img src="../img/product3.jpg" alt="Product">
+                    </div>
+                    <div class="cart-item-product-info">
+                        <h4 class="cart-item-product-title">ProType Mechanical Keyboard</h4>
+                        <span><strong>Type:</strong> Keyboard</span>
+                        <span><strong>Color:</strong> Gray</span>
+                    </div>
+                </a>
+            </div>
+            <div class="px-3 my-3 text-center">
+                <div class="cart-item-label">Quantity</div>
+                <div class="count-input">
+                    <select class="form-select">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                    </select>
+                </div>
+            </div>
+            <div class="px-3 my-3 text-center">
+                <div class="cart-item-label">Subtotal</div>
+                <span class="text-xl fw-medium">$79.99</span>
+            </div>
+            <div class="px-3 my-3 text-center">
+                <div class="cart-item-label">Discount</div>
+                <span class="text-xl fw-medium">$0.99</span>
+            </div>
+        </div>
+
+        <!-- Coupon + Subtotal-->
+        <div class="d-sm-flex justify-content-between align-items-center text-center text-sm-start">
+            <form class="py-2 d-flex align-items-center">
+            </form>
+            <div class="py-2">
+                <span class="text-muted text-uppercase me-2">Subtotal:</span>
+                <span class="text-xl fw-medium">$277.00</span>
+            </div>
+        </div>
+
+        <!-- Buttons-->
+        <hr class="my-2">
+        <div class="row pt-3 pb-5 mb-2">
+            <div class="col-sm-6 mb-3">
+                <a class="btn btn-secondary w-100" href="#"><i class="fe-icon-refresh-ccw"></i>&nbsp;Update Cart</a>
+            </div>
+            <div class="col-sm-6 mb-3">
+                <a class="btn btn-primary w-100" href="./checkout.html"><i
+                        class="fe-icon-credit-card"></i>&nbsp;Checkout</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
